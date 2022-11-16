@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+    background-color: #f3f3f3;
+}
+
+.top {
+    background-color: #119b9d;
+}
+
+.nav {
+    width: 1080px;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.nav a {
+    color: #032323;
+    text-decoration: none;
+}
+.nav-title {
+    margin-right: 285px;
+}
+
+
+.remove {
+    height: 35px;
+    width: 100px;
+    background-color:#ffffff;
+    color: #9f0fff;
+    font-size: 16px;
+    border-radius: 15px;
+}
+.nav-bottom {
+    width: 1080px;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+
+
+}
+.fav_pet {
+    display: flex;
+    height: 35px;
+}
+.fav_pet select {
+    border: 3px solid;
+    padding: 1px;
+    box-shadow: black;
+    width: 100px;
+}
+.zip {
+    display: flex;
+    height: 35px;
+}
+.zip input {
+    border: 3px solid;
+    padding: 10px;
+    box-shadow: black;
+
+}
+
+
+.find{
+    width: 420px;
+    background-color: #9900ff;
+    padding: 5px 10px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    cursor: pointer;
+    color: white;
+    margin-top: 25px;
+    font-family: cursive;
+    font-size: 30px;
+    height: 50px;
+}
+.main{
+    width: 1080px;
+    margin: 0 auto;
+}
+.sub-section {
+    background-color: #dddddd;
+    width: 1080px;
+    height: 240px;
+    display: flex;
+    margin: 20px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.sub-title {
+    width: 500px;
+    height: 100px;
+    font-size: 25px;
+
+}
+.sub-title p{
+    margin-top: 5px;
+
+}
+
+.pic {
+    height: 150px;
+    width: 250px;
+    margin: 20px;
+}
+.like{
+    width: 270px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.like-btn {
+    width: 150px;
+    background-color: #15cfd0;
+    padding: 5px 10px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    cursor: pointer;
+    color: white;
+    margin-top: 30px;
+}
+
